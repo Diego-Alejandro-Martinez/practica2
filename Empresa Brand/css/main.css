@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* principio de header */
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkes{
+    list-style: none;
+    display: flex;
+}
+
+.titulo{
+    font-size: 50px;
+    margin: 55px;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header li{
+    margin: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header li :hover{
+    color: black;
+    transition: 500ms;
+}
+/* fin de header */
+
+/* contenido conocenos*/
+.main{
+    width: 1000px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.main p{
+    text-align: justify;
+    margin-bottom: 50px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    color: green;
+    font-size: 50px;
+}
+
+.main:hover{
+    background-color: black;
+    transition: 550ms;
+}
+/* fin del contenido conocenos */
+
+/* inicio productos */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.producto{
+    width: 200px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.producto img{
+    padding-left: 20px;
+    width: 155px;
+}
+
+.producto p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.producto h2{
+    text-align: center;
+    color: black;
+    margin-top: 120px;
+    font-size: 35px;
+}
+
+.producto a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: green;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.producto a :hover{
+    background-color: black;
+    color: green;
+    transition: 500ms;
+}
+/* fin de productos */
+
+/* inicio de beneficios de productos */
+.contenedor2 img {
+    width: 120px;
+    height: 100px;
+}
+
+.titulo2{
+    width: 500px;
+    height: 100px;
+    padding-top: 100px;
+}
+
